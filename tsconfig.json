@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "esnext",
+		"jsx": "react-jsx",
+		"jsxImportSource": "react",
+		"isolatedModules": true,
+		"allowSyntheticDefaultImports": true,
+		"lib": ["dom", "esnext"],
+		// output .d.ts declaration files for consumers
+		"declaration": true,
+		"declarationDir": "dist",
+		// output .js.map sourcemap files for consumers
+		"sourceMap": true,
+		"rootDir": "src",
+		"resolveJsonModule": true,
+		"moduleResolution": "node"
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "build"]
+}
